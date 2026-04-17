@@ -175,6 +175,7 @@ func Provider(version string, testing bool) *schema.Provider {
 			"authentik_groups":                           td(dataSourceGroups),
 			"authentik_outpost":                          td(dataSourceOutpost),
 			"authentik_policy_expression":                td(dataSourcePolicyExpression),
+			"authentik_policy_password":                  td(dataSourcePolicyPassword),
 			"authentik_property_mapping_provider_rac":    td(dataSourcePropertyMappingProviderRAC),
 			"authentik_property_mapping_provider_radius": td(dataSourcePropertyMappingProviderRadius),
 			"authentik_property_mapping_provider_saml":   td(dataSourcePropertyMappingProviderSAML),
